@@ -12,13 +12,26 @@ body {
   background-color: black;
 }
 
+.navbar_logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 2rem;
+  padding: 1rem 0;
+}
+
 .logo {
-  height: 100%;
+  height: 80px;
+}
+
+.text_logo {
+  font-size: 15px;
 }
 
 .header {
   background: radial-gradient(circle, rgba(251,63,240,0.9668242296918768) 0%, rgba(119,0,255,1) 95%);
-  height: 80px;
+  height: 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -53,7 +66,35 @@ main {
 }
 
 .seccion {
-  background: rgb(88, 88, 88);
+  background: rgba(119,0,255,1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 60px;
+  margin-top: 35px;
+}
+
+
+.primero {
+  width: 130px;
+  height: 28px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-right: 20px;
+  font-family: 'Poppins';
+  background-color: black;
+  color: white;
+}
+
+.secundario {
+  width: 130px;
+  height: 28px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  margin-right: 20px;
+  font-family: 'Poppins';
 }
 
 .sobre-nosotros {
@@ -61,6 +102,18 @@ main {
   justify-content: center;
   text-align: center;
   margin: 50px;
+}
+
+.imagen {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 200px;
+  width: 200px;
+  background: url(./img/componentesPC.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
 footer{
