@@ -28,7 +28,7 @@ body {
 }
 
 .text_logo {
-  font-size: 15px;
+  font-size: 13px;
 }
 
 .header {
@@ -50,6 +50,7 @@ body {
 }
 
 .nav-link {
+  font-size: 18px;
   color: black;
 }
 
