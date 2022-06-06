@@ -9,6 +9,16 @@
   text-decoration: none;
 }
 
+:root {
+  --violetarosa: linear-gradient(0deg, rgba(251,63,240,0.9668242296918768) 0%, rgba(119,0,255,1) 95%);
+  --rosavioleta: linear-gradient(180deg, rgba(251,63,240,0.9668242296918768) 0%, rgba(119,0,255,1) 95%);
+  --violetaclaro: rgba(173, 0, 255, 0.64);
+  --bold: 900;
+  --medium: 700;
+  --regular: 400;
+  --thin: 300;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   background-color: rgb(119,136,153);
@@ -23,8 +33,14 @@ body {
   padding: 1rem 0;
 }
 
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
 .logo {
-  height: 80px;
+  height: 70px;
+  width: 70px;
 }
 
 .text_logo {
@@ -32,7 +48,7 @@ body {
 }
 
 .header {
-  background: linear-gradient(0deg, rgba(251,63,240,0.9668242296918768) 0%, rgba(119,0,255,1) 95%);
+  background: var(--violetarosa);
   height: 100px;
   display: flex;
   justify-content: space-between;
@@ -56,7 +72,7 @@ body {
 
 .nav-link:hover {
   text-decoration: line-through;
-  color: wheat;
+  color: white;
 }
 
 /* Final del NavBar */
@@ -68,15 +84,16 @@ body {
 }
 
 .seccion {
-  background: linear-gradient(180deg, rgba(251,63,240,0.9668242296918768) 0%, rgba(119,0,255,1) 95%);
+  background: var(--rosavioleta);
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 15px 30px;
   margin: 3rem 6rem;
+
 }
 
-@media screen and (max-width: 768px){
+@media (max-width: 768px){
   .seccion {
     display: flex;
     justify-content: center;
@@ -123,7 +140,7 @@ body {
 }
 
 .primero:hover {
-  background-color: wheat;
+  background-color: var(--violetaclaro);
   color: black;
 }
 
@@ -135,7 +152,8 @@ body {
   margin-right: 20px;
   cursor: pointer;
   font-family: "Poppins", sans-serif;
-  background-color: wheat;
+  background-color: var(--violetaclaro);
+  color: white;
 }
 
 .secundario:hover {
@@ -149,7 +167,7 @@ body {
   width: 100%;
 }
 
-@media screen and (max-width: 768px){
+@media (max-width: 768px){
   .imagen {
     display: flex;
     justify-content: center;
@@ -162,10 +180,9 @@ body {
   width: 230px;
   height: 230px;
 }
-
 /* Final de la primera Seccion */
-/* Inicio de la segunda Seccion */
 
+/* Inicio de la segunda Seccion */
 .sobre-nosotros {
   display: flex;
   flex-direction: column;
@@ -177,3 +194,66 @@ body {
 
 /* Final de la segunda Seccion */
 
+/* Inicio etapa 3 articulos */
+.articulos {
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 15px 30px;
+  margin: 3rem 6rem;
+  gap: 1rem;
+}
+
+.equipamientos-pc{
+  border: 1px solid red;
+  display: block;
+  height: 100%;
+  width: 100%; 
+  
+}
+
+.computadoras {
+  border: 1px solid red;
+  background: var(--rosavioleta);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.equipamientos-notebooks {
+  border: 1px solid red;
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.notebooks{
+  border: 1px solid red;
+  background: var(--violetarosa);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.equipamientos-componentes{
+  border: 1px solid red;
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.componentes{
+  border: 1px solid red;
+  background: var(--rosavioleta);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.imgarticulo {
+  height: 200px;
+  width: 200px;
+}
