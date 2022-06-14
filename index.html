@@ -14,24 +14,20 @@
         <a href="#" class="logo" title="Inicio"><img src="./img/deer.png" alt="logo" class="logo" /></a>
         <p class="text_logo">CompuDeer</p>
       </div>
-      <nav class="nav">
+      <input type="checkbox" id="toggle-nav" />
+      <label for="toggle-nav">
+        <div></div>
+        <div></div>
+        <div></div>
+      </label>
+      <div class="nav">
         <ul class="nav-list">
-          <li class="nav-item">
-            <a href="#" class="nav-link">Productos</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">Sobre Nosotros</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">Contactos</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">Bienvenida/o Usuario</a>
-          </li>
+          <li class="nav-item"><a href="#" class="nav-link">Productos</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Sobre Nosotros</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Contactos</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Bienvenida/o Usuario</a></li>
         </ul>
-        <!-- <input type="checkbox" name="menu-nav" id="menu-nav">
-        <i class="fa-solid fa-bars-staggered"></i> -->
-      </nav>
+      </div>
     </header>
     <main class="main">
       <section class="seccion">
@@ -47,6 +43,7 @@
           <img class="imag" src="./img/componentesPC.png" alt="componentes">
         </div>
       </section>
+      <!-- Seccion de nuestra descripcion -->
       <section class="sobre-nosotros">
         <div>
           <p>Somos una empresa familiar fundada en la ciudad de Córdoba en el año 2009. Nuestro principal capital invertido fue esfuerzo, trabajo y las ganas de superarnos día a día con la esperanza de crear una estructura sólida que nos permitiera hacer frente a los distintos desafíos que se nos podían presentar a lo largo del tiempo.
@@ -54,6 +51,7 @@
           <p>Inicialmente nuestro primer local se ubicaba en el garaje de una casa, local en el cual nos enfocábamos principalmente en brindar servicio técnico de computadoras.  Con el pasar del tiempo fuimos incorporando distintos productos para su comercialización lo que nos llevó a ampliar nuestras instalaciones de ventas y fue así como luego de un año el local se traslado al domicilio donde se encuentra hoy en día.</p>
         </div>      
       </section>
+      <!-- Seccion de los Articulos -->
       <section class="articulos">
         <div class="equipamientos-pc">
           <h2>Aprovechá y renová tu Pc completa</h2>
@@ -152,6 +150,7 @@
           </div>
         </div>
       </section>
+      <!-- Seccion Soporte -->
       <section class="productos-container">
         <div class="producto">
           <i class="fa-solid fa-shield"></i>
@@ -174,6 +173,64 @@
             <p>Ofrecemos todo el equipamiento para tu empresa.</p>
         </div>
       </section>
+      <!-- Seccion de partners -->
+      <section class="partners">
+        <div class="partner-logo">
+          <div class="partner-title">
+            <a href="#" class="logo" title="logo"><img src="./img/deer.png" alt="logo" class="logo" /></a>
+            <p class="cliente-text-logo">CompuDeer</p>
+          </div>
+          <div class="partner-text">
+            <p>Somos partners certificados de las principales marcas de tecnología.</p>
+          </div>
+        </div>
+        <div class="imagenes-partners">
+          <div>
+            <a href="#"><img src="./img/marcas/Asus.png" alt="Asus" class="img-partner"></a>
+          </div>
+          <div>
+            <a href="#"><img src="./img/marcas/Gigabyte.png" alt="Gigabyte" class="img-partner"></a>
+          </div>
+          <div>
+            <a href="#"><img src="./img/marcas/hyperx.png" alt="hyperx" class="img-partner"></a>
+          </div>
+          <div>
+            <a href="#"><img src="./img/marcas/intel.png" alt="intel" class="img-partner"></a>
+          </div>
+          <div>
+            <a href="#"><img src="./img/marcas/nvidia.png" alt="nvidia" class="img-partner"></a>
+          </div>
+        </div>
+      </section>
     </main>
+    <footer>
+      <div class="contacto-footer">
+        <h2>Contactanos</h2>
+      </div>
+      <div class="info-container">
+        <div class="contacto">
+          <h3>Contacto</h3>
+          <a href="https://wa.me/3513416187?text=Hola%20buenas%2C%20queria%20consultar%20sobre...">351-3416187</a>
+          <p>Angelo de Peredo 1293</p>
+          <p>Cordoba - Argentina</p>
+        </div>
+        <div class="legales">
+          <h3>Legales</h3>
+          <p>
+            Cualquier inconveniente dirigirse al lobby que nos encargamos de
+            todo
+          </p>
+        </div>
+      </div>
+      <div class="icons">
+        <a href="#" class="flex twitter"><i class="fa-brands fa-twitter"></i></i></a>
+        <a href="#" class="flex facebook"><i class="fa-brands fa-facebook-f"></i></i></a>
+        <a href="#" class="flex instagram"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+      <p class="licen">Site design / logo © 2022 Stack Exchange Inc; user contributions licensed under
+        <a href="https://stackoverflow.com/help/licensing">cc by-sa</a>
+        <span>rev 2022.6.10.42345</span>
+      </p>
+    </footer>
   </body>
 </html>
